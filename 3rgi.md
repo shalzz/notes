@@ -1,0 +1,8 @@
+# mautrix-whatsapp log
+
+```
+Aug 24 04:50:46 ip-172-31-45-176 matrix-mautrix-whatsapp[200173]: [Aug 24, 2022 04:50:46] [Portal/919891491019@s.whatsapp.net-919557167682@s.whatsapp.net/ERROR] Failed to add 919891491019@s.whatsapp.net to group as @shalzz:jain.sh: info query timed out                                                                  Aug 24 04:50:46 ip-172-31-45-176 matrix-mautrix-whatsapp[200173]: [Aug 24, 2022 04:50:46] [User/@shalzz:jain.sh/Client/WARN] Failed to fetch prekey for 919891491019.0:3@s.whatsapp.net: invalid prekey in prekey response: prekey node doesn't contain ID tag                                                                Aug 24 04:50:47 ip-172-31-45-176 matrix-mautrix-whatsapp[200173]: [Aug 24, 2022 04:50:47] [User/@shalzz:jain.sh/Client/WARN] Server returned different participant list hash when sending to 919891491019@s.whatsapp.net. Some devices may not have received the message.                                                     Aug 24 05:03:47 ip-172-31-45-176 matrix-mautrix-whatsapp[200173]: [Aug 24, 2022 05:03:47] [Portal/919891491019@s.whatsapp.net-919557167682@s.whatsapp.net/ERROR] Failed to add 919891491019@s.whatsapp.net to group as @shalzz:jain.sh: info query timed out
+Aug 24 05:03:48 ip-172-31-45-176 matrix-mautrix-whatsapp[200173]: [Aug 24, 2022 05:03:48] [User/@shalzz:jain.sh/Client/WARN] Failed to fetch prekey for 919891491019.0:3@s.whatsapp.net: invalid prekey in prekey response: prekey node doesn't contain ID tag
+Aug 24 05:03:48 ip-172-31-45-176 matrix-mautrix-whatsapp[200173]: [Aug 24, 2022 05:03:48] [User/@shalzz:jain.sh/Client/WARN] Server returned different participant list hash when sending to 919891491019@s.whatsapp.net. Some devices may not have received the message.
+```
+
