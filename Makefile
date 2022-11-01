@@ -1,4 +1,5 @@
-all: journal main
+all: main
+world: journal main
 
 main:
 	git add .
