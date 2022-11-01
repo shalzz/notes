@@ -18,8 +18,6 @@ jobs:
             -v $PWD:/data sridca/emanote \
             emanote --allow-broken-links --layers "/data/" gen /data/output.docker
           cp -r output.docker output  # Ditch docker created root-owned files
-          rm output/journal.html # Remove journal files to prevent them
-          rm -rf output/journal  # from being published
       - name: Deploy to gh-pages 🚀
         uses: peaceiris/actions-gh-pages@v3
         with:
