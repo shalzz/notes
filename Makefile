@@ -1,11 +1,11 @@
-all:
+all: main journal
+
+main:
 	git add .
 	git c -m "update"
 	git push
 
 journal:
-	cd journal
-	git add .
-	git c -m "update"
-	git push
-	cd ..
+	$(MAKE) -C journal
+
+.PHONY: journal
