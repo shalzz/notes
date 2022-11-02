@@ -7,8 +7,12 @@ page:
 template:
   # Value of the <base> tag.
   baseUrl: https://shaleenjain.com/notes/
+  # You can add your own variables here, like editBaseUrl.
+  # See after-note.tpl to see where editBaseUrl gets used.
+  editBaseUrl: https://github.com/shalzz/notes/edit/master
+
   sidebar:
     collapsed: false
   urlStrategy: pretty
-  theme: blue
+  theme: emerald
   iconUrl: /static/favicon.ico
