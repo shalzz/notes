@@ -6,7 +6,7 @@ page:
 
 template:
   # Value of the <base> tag.
-  baseUrl: /notes
+  baseUrl: https://shaleenjain.com/notes/
   sidebar:
     collapsed: false
   urlStrategy: pretty
