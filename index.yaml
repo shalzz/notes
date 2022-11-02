@@ -6,7 +6,7 @@ page:
 
 template:
   # Value of the <base> tag.
-  baseUrl: /
+  baseUrl: /notes
   sidebar:
     collapsed: false
   urlStrategy: pretty
