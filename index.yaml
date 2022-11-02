@@ -15,4 +15,4 @@ template:
     collapsed: false
   urlStrategy: pretty
   theme: emerald
-  iconUrl: /static/favicon.ico
+  iconUrl: /icons/favicon-16x16.png
