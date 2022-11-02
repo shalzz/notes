@@ -10,3 +10,5 @@ template:
   sidebar:
     collapsed: false
   urlStrategy: pretty
+  theme: blue
+  iconUrl: /notes/static/favicon.ico
