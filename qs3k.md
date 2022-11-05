@@ -1,0 +1,10 @@
+# Subscription model
+
+* Automate a manual process and sell it as a subscription.
+* Build a community and soundboard off ideas and requirements of the
+  community for a product/idea.
+
+
+Examples:
+* An AI stable diffusion SAAS for generating profile pictures for $30 per use.
+

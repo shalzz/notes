@@ -6,3 +6,5 @@ funding.
 
 Why?
     * [Owning a craft](esqg)
+
+* [Subscription model](qs3k)
