@@ -13,7 +13,7 @@ Ideas:
     * Automatic registration via API/email
     * Indian pricing? and languages?
     * Or just Indian payment gateway integration.
-    * Target Audiance:
+    * Target Audience:
         * High throughput founders/entrepreneurs
         * Investors, PMs
         * Community builders
@@ -22,7 +22,18 @@ Ideas:
         * People plugin via aws console login, etc and the Ansible deploy
             sets up the self-hosted server.
         * Maintainance orderhead/burden for users?
-        * Easy of implementation on matrix-docker-ansible-deploy?
+        * Easy of implementation on top of matrix-docker-ansible-deploy?
     * Examples/other players:
         * https://www.beeper.com/
         * https://texts.com/
+
+* Bespoke Wireguard VPN service for home-server owners and power users
+    * Preconfigured for CG-NAT bypass by
+        * Having IP-forwarding
+        * Static IP address across reboots
+        * Shared or dedicated instances.
+        * Frontend for exporting wireguard configs
+
+* Sovereign Individual Indian Community?
+    * Discord 
+    * Newsletter?
