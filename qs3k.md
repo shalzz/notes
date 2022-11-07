@@ -35,6 +35,8 @@ Ideas:
         * Frontend for exporting wireguard configs
         * No-code setup option for users?
 
+* Cloudflare Worker URL re-writer for carrd.co free plan to a custom domain.
+
 * Sovereign Individual Indian Community?
     * Discord
     * Newsletter?
