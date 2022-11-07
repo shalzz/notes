@@ -34,6 +34,9 @@ Ideas:
         * Shared or dedicated instances.
         * Frontend for exporting wireguard configs
         * No-code setup option for users?
+    * No-code stack:
+        * Landing page
+        * AWS/Digital-Ocean login
 
 * Cloudflare Worker URL re-writer for carrd.co free plan to a custom domain.
 
