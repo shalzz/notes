@@ -1,4 +1,5 @@
 # Consultant
+#consulting
 
 ## Flavours
 
@@ -20,3 +21,23 @@ None
 * Asking for a stale invoice to be paid is fine,
     but it's exceptionally bad business to give the customer any
     hint that you're in a bad place.
+
+## Customer Relationship
+* Have customers and not clients
+  * Maxim: You are primarily in the *customer service* business, not the *technical business*
+* Be easy to find
+
+## Billing
+### Hourly billing
+* Best for ill-defined or occasional work.
+* Customer bears the brunt of the project run-off and is at the mercy of the
+  consultant for being fair.
+* Not preferred by clients due to project-creep and "[churning](cpwn)"
+
+* Never ever lie or fudge on an invoice.
+* Provide time-billing transparency: List what you *did* and *who* asked you do it in detail.
+* Give away some free time, but make it visible.
+* Admit your mistakes.
+
+
+[unixwiz2000]: http://unixwiz.net/techtips/be-consultant.html

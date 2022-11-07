@@ -33,6 +33,7 @@ Ideas:
         * Static IP address across reboots
         * Shared or dedicated instances.
         * Frontend for exporting wireguard configs
+        * No-code setup option for users?
 
 * Sovereign Individual Indian Community?
     * Discord
