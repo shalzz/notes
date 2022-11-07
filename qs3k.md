@@ -35,5 +35,5 @@ Ideas:
         * Frontend for exporting wireguard configs
 
 * Sovereign Individual Indian Community?
-    * Discord 
+    * Discord
     * Newsletter?
