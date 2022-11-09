@@ -14,3 +14,5 @@ Ideas:
 * Sovereign Individual Indian Community?
     * Discord
     * Newsletter?
+* Charge rich people for 1:1 sessions on anything
+* Openwrt install and setup
