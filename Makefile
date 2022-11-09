@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-all:
-	git add .
-	git c -m "update"
-	git push
-=======
 all: main
 world: journal main
 
@@ -16,4 +10,3 @@ journal:
 	$(MAKE) -C journal
 
 .PHONY: journal
->>>>>>> master
