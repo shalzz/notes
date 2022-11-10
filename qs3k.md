@@ -8,11 +8,16 @@ Examples:
 * An AI stable diffusion SAAS for generating profile pictures for $30 per use.
 
 Ideas:
+* [Digital Assets](c3at)
 * [Community Matrix server with mautrix bridges setup](rngz).
 * [Bespoke Wireguard VPN service for home-server owners and power users](z6yl)
 * Cloudflare Worker URL re-writer for carrd.co free plan to a custom domain.
 * Sovereign Individual Indian Community?
     * Discord
     * Newsletter?
+    * Podcast with a Co-host
+    * 
+* Notion blog template with website hosting for less than $12/month
+  (super.so pricing)
 * Charge rich people for 1:1 sessions on anything
-* Openwrt install and setup
+* OpenWrt install and setup as a service

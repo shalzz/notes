@@ -42,6 +42,7 @@ Interior Mutability:
     - Rc<T> and RefCell<T> are not Sync
     - Any Type composed entirely of types that are Sync are also Sync
 * Mutex: Thread-safe version of RefCell<T>
+* AtomicBool
 
 Async:
 * Pin<T>:
