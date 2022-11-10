@@ -16,7 +16,6 @@ Ideas:
     * Discord
     * Newsletter?
     * Podcast with a Co-host
-    * 
 * Notion blog template with website hosting for less than $12/month
   (super.so pricing)
 * Charge rich people for 1:1 sessions on anything
