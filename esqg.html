@@ -22,14 +22,42 @@
     <meta name='generator' content='Emanote' />
 
   
-  <link href='tailwind.css?instanceId=ff7cd397-4fb9-41a8-be9b-c4399c3c3627' rel='stylesheet' type='text/css' />
+  <link href='tailwind.css?instanceId=67729b91-b29a-4834-83c8-3c56314464ff' rel='stylesheet' type='text/css' />
 
-  <!-- Heist error element -->
   <style>
+    /* Heist error element */
     strong.error {
       color: lightcoral;
       font-size: 90%;
       font-family: monospace;
+    }
+
+    /* External link icon */
+    a[data-linkicon]:not([data-linkicon=""]):not([data-linkicon="none"])::after {
+      /* filter converts black to rgb(156,163,175) */
+      filter: invert(71%) sepia(3%) saturate(904%) hue-rotate(179deg) brightness(92%) contrast(87%);
+      margin-left: 1px;
+    }
+
+    a[data-linkicon]:not([data-linkicon=""]):not([data-linkicon="none"]):hover::after {
+      /* filter converts black to  rgb(175,85,99) */
+      filter: invert(32%) sepia(10%) saturate(834%) hue-rotate(176deg) brightness(92%) contrast(88%);
+    }
+
+    a[data-linkicon=""]::after {
+      content: ""
+    }
+
+    a[data-linkicon=none]::after {
+      content: ""
+    }
+
+    a[data-linkicon="external"]::after {
+      content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='1em' fill='none' viewBox='0 0 24 24' stroke='black' stroke-width='2'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14' /%3E%3C/svg%3E");
+    }
+
+    a[data-linkicon="external"][href^="mailto:"]::after {
+      content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='1em' fill='none' viewBox='0 0 24 24' stroke='black' stroke-width='2'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z' /%3E%3C/svg%3E");
     }
   </style>
   <!-- What goes in this file will appear on near the end of <head>--><link rel='preload' href='_emanote-static/fonts/Work_Sans/WorkSans-VariableFont_wght.ttf' as='font' type='font/ttf' crossorigin />
@@ -701,6 +729,45 @@
   
     <a class='hover:underline truncate' title='Project Ideas' href='6t4g'>
       Project Ideas
+    </a>
+    
+      
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+    
+  
+</div>
+            
+              <!-- Variable bindings for this tree-->
+  
+    
+      
+    
+    
+
+
+
+  
+
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
+        </path>
+      </svg>
+    
+  
+    <a class='hover:underline truncate' title='Systems Design' href='7xha'>
+      Systems Design
     </a>
     
       
@@ -1944,7 +2011,7 @@
     
   
     <a class='hover:underline truncate' title='Tools for culture of writing' href='oi8g'>
-      <a href='https://matt.blwt.io/post/tools-for-a-culture-of-writing/'>Tools for culture of writing</a>
+      <a href='https://matt.blwt.io/post/tools-for-a-culture-of-writing/' data-linkicon='external'>Tools for culture of writing</a>
     </a>
     
       
@@ -2528,6 +2595,45 @@
       </svg>
     
   
+    <a class='hover:underline truncate' title='SQL vs NoSQL DB' href='t1ad'>
+      SQL vs NoSQL DB
+    </a>
+    
+      
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+    
+  
+</div>
+            
+              <!-- Variable bindings for this tree-->
+  
+    
+      
+    
+    
+
+
+
+  
+
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
+        </path>
+      </svg>
+    
+  
     <a class='hover:underline truncate' title='Borrow Checker' href='t4sm'>
       Borrow Checker
     </a>
@@ -3038,6 +3144,7 @@
       [<span class='font-bold bg-gray-100 py-0.5 px-2 rounded-lg emanote:inline-tag:crawford2010' title='Tag' data-tag='crawford2010'><a href='-/tags/crawford2010' title='Tag' class='text-emerald-600 mavenLinkBold hover:underline'>#crawford2010</a></span>]: Mathew B. Crawford (2010): Shop Class as Soulcraft: An Inquiry into the Value of Work
     </p>
   
+
   <div class='flex items-center justify-center mt-2'>
   
     
@@ -3091,7 +3198,7 @@
     </a>
   </div>
   <div>
-    <a href='https://emanote.srid.ca' target='_blank' title='Generated by Emanote 0.8.1.1'>
+    <a href='https://emanote.srid.ca' target='_blank' title='Generated by Emanote 0.8.1.7'>
       <img class='w-6 h-6 hover:text-emerald-700' src='_emanote-static/emanote-logo.svg' />
     </a>
   </div>
@@ -3123,6 +3230,9 @@
     </div>
   </div>
 </div>
+  
+    
+  
 </body>
 
 </html>
