@@ -9,13 +9,15 @@ Examples:
 
 Ideas:
 * [Digital Assets](c3at)
-* [Community Matrix server with mautrix bridges setup](rngz).
-* [Bespoke Wireguard VPN service for home-server owners and power users](z6yl)
-* Cloudflare Worker URL re-writer for carrd.co free plan to a custom domain.
+* Productise DIY guides:
+  * [Community Matrix server with mautrix bridges setup](rngz).
+  * [Bespoke Wireguard VPN service for home-server owners and power users](z6yl)
+  * Cloudflare Worker URL re-writer for carrd.co free plan to a custom domain.
 * Sovereign Individual Indian Community?
     * Discord
     * Newsletter?
     * Podcast with a Co-host
+* Soulful Events newsletter
 * Notion blog template with website hosting for less than $12/month
   (super.so pricing)
 * Charge rich people for 1:1 sessions on anything
