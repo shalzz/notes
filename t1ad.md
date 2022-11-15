@@ -10,11 +10,9 @@ Are unstructured, distributed and have a dynamic schema.
 
 |Property| SQL | NoSQL|
 |--------|-----|------|
-|Storage | Data stored in tables| Different data storage models such as
-document, key-value, graph and column-oriented (used mainly for analytics)|
+|Storage | Data stored in tables| Different data storage models such as document, key-value, graph and column-oriented (used mainly for analytics)|
 |Schema| Fixed | Dynamic|
-|Query| SQL language| queries based on documents and have different syntax/DSL
-by DB|
+|Query| SQL language| queries based on documents and have different syntax/DSL by DB|
 |Scalability| Vertical| Horizontal|
 |Reliability| ACID | Non-ACID for performance and scalability|
 
