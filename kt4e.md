@@ -1,7 +1,12 @@
 # Why web3?
 
+## 2008 Economic crisis
+* Bank's giving out bad loans, despite knowing that
+* Regulated credit agencies colluding
+* Gov bailing out the banks with taxpayer money
+
 ## Need of bitcoin
-* Lossers of the 2018 financial crisis: users/customers
+* Losers of the 2018 financial crisis: users/customers
 * Not only did they not get any interest on their savings
 * Could not withdraw their funds for weeks
 * Need for alternative digital cash
