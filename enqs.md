@@ -40,3 +40,16 @@ What is your attachment style:
     1. Anxious (Not getting enougth love/attention) (Needs validation)
     1. Avoidant (Scared / wants to runaway since relationship are hard or can
        mess up) (Need space)
+
+* Document a Process
+Create a process for dealing with disagreements.
+
+* Use Non-Violent Communication
+   - Focus on universal needs
+
+* Requests Vs Demand
+Make requests instead of demands
+   * Make it specific
+   * Say what you want
+   * Stay curious
+
