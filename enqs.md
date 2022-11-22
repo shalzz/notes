@@ -31,6 +31,12 @@ Walks away from a problem
 ## Make a plan before you fight
 
 * Divide and conquer
-> Assign roles/areas of ownership
+> Divide up the tasks by assigning roles/areas of ownership
+> Determine what is success and failure
 
-* 
+* Know Thyself
+What is your attachment style:
+    1. Secure (Being vulnerable without and within others)
+    1. Anxious (Not getting enougth love/attention) (Needs validation)
+    1. Avoidant (Scared / wants to runaway since relationship are hard or can
+       mess up) (Need space)
