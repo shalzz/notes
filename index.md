@@ -5,5 +5,5 @@ Feel free to browse through them.
 
 Other pages on this [zettelkasten](i99m):
 
+- [Referral Links](9pwa)
 - [Invite codes](https://invitation.codes/@shalzz)
-
