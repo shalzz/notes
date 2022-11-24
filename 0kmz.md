@@ -7,3 +7,6 @@
 * [Figma and graphics](s8o0)
 * [Softr & Airtable](dhcw)
 * [Bubble](nwi5)
+* [Chatbots with landbot](dn1l)
+* [Coda.io](05vv)
+* [No-code idea Jam](lplo)
