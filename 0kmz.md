@@ -12,6 +12,7 @@
 * [No-code idea Jam](lplo)
 * [Community led Product building](11fy)
 * [Launch a product on Product Hunt](qhf8)
+* [Selling your product on microacquire](1gb2)
 
 ## Marketing
 https://marketingexamples.com/
