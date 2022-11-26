@@ -10,6 +10,8 @@
 * [Chatbots with landbot](dn1l)
 * [Coda.io](05vv)
 * [No-code idea Jam](lplo)
+* [Community led Product building](11fy)
+* [Launch a product on Product Hunt](qhf8)
 
 ## Marketing
 https://marketingexamples.com/
