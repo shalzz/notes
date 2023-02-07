@@ -1,6 +1,8 @@
 # Launch a product on Product Hunt
 
-Product Hunt is a curation of the best new products, every day. Discover the latest mobile apps, websites, and technology products that everyone's talking about at producthunt.com
+Product Hunt is a curation of the best new products, every day.
+Discover the latest mobile apps, websites, and technology products
+that everyone's talking about at producthunt.com
 
 * Before listing your product on PH, you can preview it at https://previewhunt.com/
 
