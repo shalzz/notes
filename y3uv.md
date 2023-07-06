@@ -1,6 +1,9 @@
 # Consultant
 #consulting
 
+## Ideas
+[Consulting Ideas](x2f9)
+
 ## Flavours
 
 * Contracting: One project at a time. Mainly technical than personal.

@@ -11,5 +11,5 @@ Sell micro-products on gumroad/similar:
 * Tutorials
 * Invite codes/referrals
 
-> With optional consultation / add-on
+> With optional [consultation](y3uv) / add-on
 
