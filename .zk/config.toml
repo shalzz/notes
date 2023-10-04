@@ -81,7 +81,7 @@ paths = ["journal/daily"]
 
 [group.daily.note]
 # %Y-%m-%d is actually the default format, so you could use {{date now}} instead.
-filename = "{{date now '%Y-%m-%d'}}"
+filename = "{{format-date now }}"
 extension = "md"
 template = "daily.md"
 
