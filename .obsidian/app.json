@@ -1,0 +1,7 @@
+{
+  "useMarkdownLinks": true,
+  "userIgnoreFilters": [
+    "templates/",
+    "journal/daily/"
+  ]
+}
