@@ -7,4 +7,4 @@ modified: 2023-11-07T09:51:38+05:30
 
 * What is aloneness and non-aloneness
 * What is sharing and being or sharing from a sense of being
-* Talking and silence
+* Talking/Speaking and silence
