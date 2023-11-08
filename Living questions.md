@@ -6,4 +6,3 @@
 * What is movement and stillness?
 * What is asking and knowing?
 * What is approaching and waiting?
-* What is Contact Improv?
