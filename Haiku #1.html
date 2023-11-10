@@ -23,7 +23,7 @@
 
   
   
-  <link href='tailwind.css?instanceId=31697ce5-7786-43d7-879a-8c6afa596c23' rel='stylesheet' type='text/css' />
+  <link href='tailwind.css?instanceId=93d2b898-13ed-42b2-8911-8d08d1bac879' rel='stylesheet' type='text/css' />
 
   <style>
     /* Heist error element */
@@ -1201,7 +1201,7 @@
       
   
     <a class='font-bold text-emerald-600 hover:underline truncate' title='Haiku #1' href='Haiku%20%231'>
-      Haiku #1
+      Haiku <span class='font-bold bg-gray-100 py-0.5 px-2 rounded-lg emanote:inline-tag:1' title='Tag' data-tag='1'><a href='-/tags/1.html' title='Tag'>#1</a></span>
     </a>
     
       
@@ -2175,8 +2175,8 @@
       </svg>
     
   
-    <a class='hover:underline truncate' title='graph' href='graph'>
-      graph
+    <a class='hover:underline truncate' title='Graph' href='graph'>
+      Graph
     </a>
     
       
@@ -4266,7 +4266,7 @@
           <main class='px-4 py-4'>
             <h1 class='flex items-end justify-center mb-4 p-3 bg-emerald-100 text-5xl font-extrabold text-black rounded'>
   <a class='z-40 tracking-tighter '>
-    Haiku #1
+    Haiku <span class='font-bold bg-gray-100 py-0.5 px-2 rounded-lg emanote:inline-tag:1' title='Tag' data-tag='1'><a href='-/tags/1.html' title='Tag'>#1</a></span>
   </a>
 </h1>
             <article class='overflow-auto'>
@@ -4296,6 +4296,15 @@
             </div>
             
   <section class='flex flex-wrap items-end justify-center my-4 space-x-2 space-y-2 font-mono text-sm'>
+    
+      <!-- FIXME: The use of -/tags is wrong, because we should use routeUrl using Ema's encoder 
+        Perhaps Emanote should inject tagMetas with urls.
+      -->
+      <a title='Tag' class='px-1 bg-gray-100 rounded hover:bg-gray-50 hover:text-emerald-500' href='-/tags/1'>
+        <!-- DoNotFormat -->
+        #1
+        <!-- DoNotFormat -->
+      </a>
     
   </section>
 
