@@ -6,3 +6,5 @@
 * What is movement and stillness?
 * What is asking and knowing?
 * What is doing and being?
+* Enjoying aloneness
+* and sharing the bliss from/in aloneness
