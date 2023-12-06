@@ -6,5 +6,3 @@
     * Grounding and find you center of gravity
     * Driving and riding a bike/scooty
 * Separation and unity? and New Earth?
-* Origins of soulfulevents and why do we need it.
-
