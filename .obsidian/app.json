@@ -3,5 +3,6 @@
   "userIgnoreFilters": [
     "templates/",
     "journal/daily/"
-  ]
+  ],
+  "vimMode": true
 }
