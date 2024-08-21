@@ -13,8 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journal/daily/2024-08-20.md",
+                "file": "5tpj.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "journal/daily/2024-08-20.md",
+                "file": "5tpj.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "journal/daily/2024-08-20.md",
+                "file": "5tpj.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "journal/daily/2024-08-20.md"
+                "file": "5tpj.md"
               }
             }
           }
@@ -144,12 +145,13 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "publish:Publish changes...": false
+      "command-palette:Open command palette": false
     }
   },
   "active": "ce553aab012d7770",
   "lastOpenFiles": [
+    "4cm7.md",
+    "journal/daily/2024-08-20.md",
     "tags.temp",
     "tags.lock",
     "journal/daily/2022-11-09.md",
@@ -157,7 +159,6 @@
     "journal/daily/2023-10-06.md",
     "journal/daily/2023-11-08.md",
     "2f8c.md",
-    "journal/daily/2024-08-20.md",
     "Places to visit.md",
     "5tpj.md",
     "3i65.md",
