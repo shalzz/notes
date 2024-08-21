@@ -1,6 +1,6 @@
 ---
 created: 2023-12-05T11:03:12+05:30
-modified: 2024-01-09T01:52:00+05:30
+modified: 2024-05-12T12:43:40+05:30
 type: Checklist
 ---
 
@@ -8,7 +8,8 @@ type: Checklist
 
 - [ ] Daya river
 - [ ] Bhubaneswar
+- [ ] Kornak Temple
 - [ ] Bodh Gaya
 - [ ] Parshva Nath Hill
-- [ ] Horus temple in edfu
-- [ ] Temple of seti in abryos/abydos
+- [x] Horus temple in edfu
+- [x] Temple of seti in abryos/abydos
