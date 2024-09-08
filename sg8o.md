@@ -6,3 +6,9 @@
     * Grounding and find you center of gravity
     * Driving and riding a bike/scooty
 * Separation and unity? and New Earth?
+* Network State vs DAO
+* Tai Chi and Qi Gong
+* Rust 
+* Blockchain and AI?
+* Archetypes of Mature Masculinity
+* Essential Oils and their applications (mosso repellent)
