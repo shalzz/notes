@@ -12,3 +12,6 @@
 * Blockchain and AI?
 * Archetypes of Mature Masculinity
 * Essential Oils and their applications (mosso repellent)
+* Egypt Trip
+* Yoga vs Tantra vs Chi Martial Arts
+* People pleasing syndrome
