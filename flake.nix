@@ -14,5 +14,5 @@
     ema.url = "github:srid/ema";
     ema.inputs.nixpkgs.follows = "nixpkgs";
   };
-  outputs = inputs:
+  outputs = inputs;
 }
