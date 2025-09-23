@@ -19,7 +19,6 @@
       emanote = {
         sites = {
           "site" = {
-            package = config.packages.default;
             layers = [{ path = ./. ; pathString = "."; }];
             allowBrokenInternalLinks = true; # A couple, by design, in markdown.md
             extraConfig = {
