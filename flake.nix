@@ -15,10 +15,4 @@
     ema.inputs.nixpkgs.follows = "nixpkgs";
   };
   outputs = inputs:
-    # This will import ./nix/modules/flake/*.nix
-    # cf. https://nixos-unified.org/autowiring.html#flake-parts
-    #
-    # To write your own Nix, add or edit files in ./nix/modules/flake/
-    inputs.nixos-unified.lib.mkFlake
-      { inherit inputs; root = ./.; };
 }
