@@ -1,37 +1,24 @@
 {
-  nixConfig = {
-    extra-substituters = "https://cache.garnix.io";
-    extra-trusted-public-keys = "cache.garnix.io:CTFPyKSLcx5RMJKfLo5EEPUObbA78b0YQ2DTCJXqr9g=";
-  };
-
+  description = "Ema template app";
   inputs = {
-    emanote.url = "github:srid/emanote";
-    emanote.inputs.emanote-template.follows = "";
-    nixpkgs.follows = "emanote/nixpkgs";
-    flake-parts.follows = "emanote/flake-parts";
-  };
+    nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    flake-parts.url = "github:hercules-ci/flake-parts";
+    nixos-unified.url = "github:srid/nixos-unified";
+    haskell-flake.url = "github:srid/haskell-flake";
 
-  outputs = inputs@{ self, flake-parts, nixpkgs, ... }:
-    flake-parts.lib.mkFlake { inherit inputs; } {
-      systems = nixpkgs.lib.systems.flakeExposed;
-      imports = [ inputs.emanote.flakeModule ];
-      perSystem = { self', pkgs, system, ... }: {
-        emanote = {
-          # By default, the 'emanote' flake input is used.
-          # package = inputs.emanote.packages.${system}.default;
-          sites."default" = {
-            layers = [{ path = ./.; pathString = "."; }];
-            # port = 8080;
-            baseUrl = "/"; # Change to "/" (or remove it entirely) if using CNAME
-            # prettyUrls = true;
-          };
-        };
-        devShells.default = pkgs.mkShell {
-          buildInputs = [
-            pkgs.nixpkgs-fmt
-          ];
-        };
-        formatter = pkgs.nixpkgs-fmt;
-      };
-    };
+    process-compose-flake.url = "github:Platonic-Systems/process-compose-flake";
+    fourmolu-nix.url = "github:jedimahdi/fourmolu-nix";
+    git-hooks.url = "github:cachix/git-hooks.nix";
+    git-hooks.flake = false;
+
+    ema.url = "github:srid/ema";
+    ema.inputs.nixpkgs.follows = "nixpkgs";
+  };
+  outputs = inputs:
+    # This will import ./nix/modules/flake/*.nix
+    # cf. https://nixos-unified.org/autowiring.html#flake-parts
+    #
+    # To write your own Nix, add or edit files in ./nix/modules/flake/
+    inputs.nixos-unified.lib.mkFlake
+      { inherit inputs; root = ./.; };
 }

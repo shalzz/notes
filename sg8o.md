@@ -3,9 +3,6 @@
 * ~~Network State vs DAO~~
 * [Network States](6i95)
 * [Contact Improv](smx9)
-    * Trusting yourself
-    * Being comfortable with the unknown
-    * Grounding and find you center of gravity
     * Driving and riding a bike/scooty
 * Writing (meta-writng)
 * [Yoga](f1bj) vs Tantra vs [Qi Gong](ot9f)
