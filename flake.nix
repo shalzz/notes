@@ -18,7 +18,7 @@
     perSystem = { pkgs, lib, config, system, ... }: {
       emanote = {
         sites = {
-          "default" = {
+          "site" = {
             package = config.packages.default;
             layers = [{ path = ./. ; pathString = "."; }];
             allowBrokenInternalLinks = true; # A couple, by design, in markdown.md
