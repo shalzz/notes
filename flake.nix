@@ -14,5 +14,22 @@
     ema.url = "github:srid/ema";
     ema.inputs.nixpkgs.follows = "nixpkgs";
   };
-  outputs = inputs;
+  outputs = inputs: {
+    perSystem = { pkgs, lib, config, system, ... }: {
+      emanote = {
+        sites = {
+          "default" = {
+            package = config.packages.default;
+            layers = [{ path = ./. ; pathString = "."; }];
+            allowBrokenInternalLinks = true; # A couple, by design, in markdown.md
+            extraConfig = {
+              template = {
+                urlStrategy = "pretty";
+              };
+            };
+          };
+        };
+      };
+    };
+  };
 }
