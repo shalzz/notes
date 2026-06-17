@@ -1,34 +1,32 @@
 {
-  description = "Ema template app";
+  description = "Emanote site";
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
     flake-parts.url = "github:hercules-ci/flake-parts";
-    nixos-unified.url = "github:srid/nixos-unified";
-    haskell-flake.url = "github:srid/haskell-flake";
-
-    process-compose-flake.url = "github:Platonic-Systems/process-compose-flake";
-    fourmolu-nix.url = "github:jedimahdi/fourmolu-nix";
-    git-hooks.url = "github:cachix/git-hooks.nix";
-    git-hooks.flake = false;
-
-    ema.url = "github:srid/ema";
-    ema.inputs.nixpkgs.follows = "nixpkgs";
+    emanote.url = "github:srid/emanote";
   };
-  outputs = inputs: {
-    perSystem = { pkgs, lib, config, system, ... }: {
-      emanote = {
-        sites = {
-          "site" = {
-            layers = [{ path = ./. ; pathString = "."; }];
-            allowBrokenInternalLinks = true; # A couple, by design, in markdown.md
-            extraConfig = {
-              template = {
-                urlStrategy = "pretty";
+  outputs = inputs:
+    inputs.flake-parts.lib.mkFlake { inherit inputs; } {
+      systems = [ "x86_64-linux" ];
+      imports = [
+        inputs.emanote.flakeModule
+      ];
+      perSystem = { config, self', inputs', pkgs, system, ... }: {
+        emanote = {
+          sites = {
+            "site" = {
+              layers = [
+                { path = ./.; pathString = "."; }
+              ];
+              allowBrokenInternalLinks = true;
+              extraConfig = {
+                template = {
+                  urlStrategy = "pretty";
+                };
               };
             };
           };
         };
       };
     };
-  };
 }
