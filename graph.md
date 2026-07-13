@@ -1,6 +1,6 @@
 ---
 template:
-  name: /templates/layouts/note
+  name: /templates/layouts/default
 ---
 
 # Graph
