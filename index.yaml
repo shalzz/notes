@@ -13,3 +13,6 @@ template:
     collapsed: false
   urlStrategy: pretty
   theme: emerald
+  uptree: 
+    enable: true
+
