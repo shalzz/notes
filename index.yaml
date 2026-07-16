@@ -1,5 +1,5 @@
 # For documentation and available settings, see
-# https://github.com/srid/emanote/blob/master/default/index.yaml
+# https://github.com/srid/emanote/blob/master/emanote/default/index.yaml
 
 page:
   siteTitle: Shaleen's Notes
@@ -8,11 +8,11 @@ template:
   # You can add your own variables here, like editBaseUrl.
   # See after-note.tpl to see where editBaseUrl gets used.
   editBaseUrl: https://github.com/shalzz/notes/edit/master
-
   sidebar:
     collapsed: false
   urlStrategy: pretty
   theme: emerald
+  iconUrl: https://shaleenjain.com/icons/favicon.ico
   uptree: 
     enable: true
 
